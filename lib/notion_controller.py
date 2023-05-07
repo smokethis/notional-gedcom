@@ -12,8 +12,10 @@ headers = {
 }
 
 
-def search_databases():
-    """Search for databases using a Notion integration."""
+def search_databases() -> str:
+    """Search for databases using a Notion integration.
+    Returns:
+        database_id (str): The ID of the database."""
     # Define search parameters
     search_params = {"filter": {"value": "database", "property": "object"}}
     # Make the request
@@ -33,8 +35,10 @@ def search_databases():
     return database_id
 
 
-def get_db(db_id):
-    """Get info for a given Notion database."""
+def get_db(db_id: str):
+    """Get info for a given Notion database.
+    Parameters:
+        db_id (str): The ID of the database to get."""
     try:
         db_response = requests.get(
             f"https://api.notion.com/v1/databases/{db_id}",
@@ -46,8 +50,10 @@ def get_db(db_id):
     print(db_response.json())
 
 
-def query_db(db_id):
-    """Query a Notion database for all records."""
+def query_db(db_id: str):
+    """Query a Notion database for all records.
+    Parameters:
+        db_id (str): The ID of the database to query."""
     try:
         query_response = requests.post(
             f"https://api.notion.com/v1/databases/{db_id}/query",
@@ -59,8 +65,10 @@ def query_db(db_id):
     print(query_response.json())
 
 
-def create_db_row(db_id):
-    """Create a new row in a Notion database."""
+def post_dbpage_update(db_id: str):
+    """Update a row in a Notion database.
+    Parameters:
+        db_id (str): The ID of the database to update."""
     # Define the data
     data = {
         "parent": {"database_id": db_id},
@@ -79,10 +87,3 @@ def create_db_row(db_id):
         )
     except requests.exceptions.HTTPError as err:
         print(err)
-
-
-db_id = search_databases()
-# get_db(db_id)
-# print("============")
-# query_db(db_id)
-create_db_row(db_id)
