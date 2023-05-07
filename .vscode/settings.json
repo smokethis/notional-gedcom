@@ -1,0 +1,8 @@
+{
+    "python.linting.enabled": true,
+    "python.analysis.typeCheckingMode": "off",
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintPath": ".venv/bin/pylint",
+    "python.formatting.autopep8Path": ".venv/bin/autopep8",
+    "editor.formatOnSave": true
+}
