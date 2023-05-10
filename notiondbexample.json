@@ -1,149 +1,312 @@
 {
-    "object": "list",
-    "results": [
+    "object": "database",
+    "id": "94a16cda-fdcd-48e1-904b-25a6016cd0b3",
+    "cover": None,
+    "icon": None,
+    "created_time": "2023-05-07T14:12:00.000Z",
+    "created_by": {
+        "object": "user",
+        "id": "ec63f195-7afd-4c5f-a7b6-b66f16e85a6b"
+    },
+    "last_edited_by": {
+        "object": "user",
+        "id": "3482bc9d-543f-40ea-acc7-9b3380de7498"
+    },
+    "last_edited_time": "2023-05-07T16:05:00.000Z",
+    "title": [
         {
-            "object": "page",
-            "id": "945c6d03-e125-4c84-8443-ebdb656581b7",
-            "created_time": "2023-05-07T14:31:00.000Z",
-            "last_edited_time": "2023-05-07T14:31:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "3482bc9d-543f-40ea-acc7-9b3380de7498"
+            "type": "text",
+            "text": {
+                "content": "Time Machine.People",
+                "link": None
             },
-            "last_edited_by": {
-                "object": "user",
-                "id": "3482bc9d-543f-40ea-acc7-9b3380de7498"
+            "annotations": {
+                "bold": False,
+                "italic": False,
+                "strikethrough": False,
+                "underline": False,
+                "code": False,
+                "color": "default"
             },
-            "cover": None,
-            "icon": None,
-            "parent": {
-                "type": "database_id",
-                "database_id": "4ce68496-5d09-49e6-a215-e6d9aedddf56"
-            },
-            "archived": False,
-            "properties": {
-                "LastName": {
-                    "id": "CDgw",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Bumflaps",
-                                "link": None
-                            },
-                            "annotations": {
-                                "bold": False,
-                                "italic": False,
-                                "strikethrough": False,
-                                "underline": False,
-                                "code": False,
-                                "color": "default"
-                            },
-                            "plain_text": "Bumflaps",
-                            "href": None
-                        }
-                    ]
-                },
-                "FirstName": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Amanda",
-                                "link": None
-                            },
-                            "annotations": {
-                                "bold": False,
-                                "italic": False,
-                                "strikethrough": False,
-                                "underline": False,
-                                "code": False,
-                                "color": "default"
-                            },
-                            "plain_text": "Amanda",
-                            "href": None
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/Amanda-945c6d03e1254c848443ebdb656581b7"
-        },
-        {
-            "object": "page",
-            "id": "0ce29e0a-d59e-4ac5-b556-282ad4acdfb3",
-            "created_time": "2023-05-07T13:23:00.000Z",
-            "last_edited_time": "2023-05-07T14:31:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "3482bc9d-543f-40ea-acc7-9b3380de7498"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "3482bc9d-543f-40ea-acc7-9b3380de7498"
-            },
-            "cover": None,
-            "icon": None,
-            "parent": {
-                "type": "database_id",
-                "database_id": "4ce68496-5d09-49e6-a215-e6d9aedddf56"
-            },
-            "archived": False,
-            "properties": {
-                "LastName": {
-                    "id": "CDgw",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Fartbags",
-                                "link": None
-                            },
-                            "annotations": {
-                                "bold": False,
-                                "italic": False,
-                                "strikethrough": False,
-                                "underline": False,
-                                "code": False,
-                                "color": "default"
-                            },
-                            "plain_text": "Fartbags",
-                            "href": None
-                        }
-                    ]
-                },
-                "FirstName": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Bob",
-                                "link": None
-                            },
-                            "annotations": {
-                                "bold": False,
-                                "italic": False,
-                                "strikethrough": False,
-                                "underline": False,
-                                "code": False,
-                                "color": "default"
-                            },
-                            "plain_text": "Bob",
-                            "href": None
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/Bob-0ce29e0ad59e4ac5b556282ad4acdfb3"
+            "plain_text": "Time Machine.People",
+            "href": None
         }
     ],
-    "next_cursor": None,
-    "has_more": False,
-    "type": "page",
-    "page": {}
+    "description": [],
+    "is_inline": True,
+    "properties": {
+        "Brief Biography": {
+            "id": "%3E%5Dx%3A",
+            "name": "Brief Biography",
+            "type": "rich_text",
+            "rich_text": {}
+        },
+        "Notable Figure": {
+            "id": "IQKR",
+            "name": "Notable Figure",
+            "type": "checkbox",
+            "checkbox": {}
+        },
+        "Notes": {
+            "id": "JFzR",
+            "name": "Notes",
+            "type": "rich_text",
+            "rich_text": {}
+        },
+        "Death": {
+            "id": "L%5D%5Bn",
+            "name": "Death",
+            "type": "formula",
+            "formula": {
+                "expression": "empty(prop("Birth / Death")) ? "" : ((formatDate(start(prop("Birth / Death")), "MMM D, YYYY") == formatDate(end(prop("Birth / Death")), "MMM D, YYYY")) ? "" : formatDate(end(prop("Birth / Death")), "MMM D, YYYY"))"
+            }
+        },
+        "Dates Approx.": {
+            "id": "NNeY",
+            "name": "Dates Approx.",
+            "type": "checkbox",
+            "checkbox": {}
+        },
+        "Branch": {
+            "id": "OEb%7C",
+            "name": "Branch",
+            "type": "multi_select",
+            "multi_select": {
+                "options": [
+                    {
+                        "id": "e0e88d9d-f9c0-4d0c-ac6b-d375f1ca9ea5",
+                        "name": "Paternal",
+                        "color": "red"
+                    },
+                    {
+                        "id": "1a3a1bfd-3410-4cae-8030-300b47c68421",
+                        "name": "Maternal",
+                        "color": "blue"
+                    }
+                ]
+            }
+        },
+        "Spouse": {
+            "id": "P%5Bp%3E",
+            "name": "Spouse",
+            "type": "relation",
+            "relation": {
+                "database_id": "94a16cda-fdcd-48e1-904b-25a6016cd0b3",
+                "type": "single_property",
+                "single_property": {}
+            }
+        },
+        "Images": {
+            "id": "Pj%5CT",
+            "name": "Images",
+            "type": "files",
+            "files": {}
+        },
+        "Parents": {
+            "id": "UVq%5D",
+            "name": "Parents",
+            "type": "relation",
+            "relation": {
+                "database_id": "94a16cda-fdcd-48e1-904b-25a6016cd0b3",
+                "type": "dual_property",
+                "dual_property": {
+                    "synced_property_name": "Children",
+                    "synced_property_id": "%5Dpsl"
+                }
+            }
+        },
+        "Siblings (Rollup)": {
+            "id": "Wzbd",
+            "name": "Siblings (Rollup)",
+            "type": "rollup",
+            "rollup": {
+                "rollup_property_name": "Children",
+                "relation_property_name": "Parents",
+                "rollup_property_id": "]psl",
+                "relation_property_id": "UVq]",
+                "function": "show_unique"
+            }
+        },
+        "Library": {
+            "id": "%5B%5DpC",
+            "name": "Library",
+            "type": "relation",
+            "relation": {
+                "database_id": "aa3be417-ce06-4642-be07-d0df45c0a35e",
+                "type": "dual_property",
+                "dual_property": {
+                    "synced_property_name": "Related to People",
+                    "synced_property_id": "A~a%60"
+                }
+            }
+        },
+        "Children": {
+            "id": "%5Dpsl",
+            "name": "Children",
+            "type": "relation",
+            "relation": {
+                "database_id": "94a16cda-fdcd-48e1-904b-25a6016cd0b3",
+                "type": "dual_property",
+                "dual_property": {
+                    "synced_property_name": "Parents",
+                    "synced_property_id": "UVq%5D"
+                }
+            }
+        },
+        "Siblings": {
+            "id": "_iE%3F",
+            "name": "Siblings",
+            "type": "relation",
+            "relation": {
+                "database_id": "94a16cda-fdcd-48e1-904b-25a6016cd0b3",
+                "type": "single_property",
+                "single_property": {}
+            }
+        },
+        "Place of Death / Burial": {
+            "id": "%60Cn%7D",
+            "name": "Place of Death / Burial",
+            "type": "rich_text",
+            "rich_text": {}
+        },
+        "Tags": {
+            "id": "%60y_o",
+            "name": "Tags",
+            "type": "multi_select",
+            "multi_select": {
+                "options": [
+                    {
+                        "id": "6bb3908b-5214-4152-a998-3176df1d003c",
+                        "name": "🚩 Needs Research",
+                        "color": "red"
+                    }
+                ]
+            }
+        },
+        "Associated With": {
+            "id": "aoDr",
+            "name": "Associated With",
+            "type": "relation",
+            "relation": {
+                "database_id": "94a16cda-fdcd-48e1-904b-25a6016cd0b3",
+                "type": "single_property",
+                "single_property": {}
+            }
+        },
+        "Age at Marriage": {
+            "id": "gK%7CL",
+            "name": "Age at Marriage",
+            "type": "formula",
+            "formula": {
+                "expression": "empty(prop("Marriage")) ? 0 : dateBetween(prop("Marriage"), start(prop("Birth / Death")), "years")"
+            }
+        },
+        "Display Name": {
+            "id": "gvML",
+            "name": "Display Name",
+            "type": "rich_text",
+            "rich_text": {}
+        },
+        "Nickname": {
+            "id": "oR%5C%40",
+            "name": "Nickname",
+            "type": "rich_text",
+            "rich_text": {}
+        },
+        "Age": {
+            "id": "ofEc",
+            "name": "Age",
+            "type": "formula",
+            "formula": {
+                "expression": "if(end(prop("Birth / Death")) == start(prop("Birth / Death")), dateBetween(now(), start(prop("Birth / Death")), "years"), dateBetween(end(prop("Birth / Death")), start(prop("Birth / Death")), "years"))"
+            }
+        },
+        "Place of Birth": {
+            "id": "prt%3E",
+            "name": "Place of Birth",
+            "type": "rich_text",
+            "rich_text": {}
+        },
+        "Gender": {
+            "id": "qD~J",
+            "name": "Gender",
+            "type": "select",
+            "select": {
+                "options": [
+                    {
+                        "id": "dc812814-adf9-42c4-89a6-066b25628cf6",
+                        "name": "M",
+                        "color": "default"
+                    },
+                    {
+                        "id": "e5bb95d9-499e-46c7-bc93-0b66bcb12f6c",
+                        "name": "F",
+                        "color": "default"
+                    }
+                ]
+            }
+        },
+        "Birth / Death": {
+            "id": "rCAI",
+            "name": "Birth / Death",
+            "type": "date",
+            "date": {}
+        },
+        "Summary": {
+            "id": "rPI%3D",
+            "name": "Summary",
+            "type": "formula",
+            "formula": {
+                "expression": "concat(prop("Full Name") + " (" + prop("Gender") + ") (" + format(prop("Age")) + " yrs)\\n[B
+                ] " + format(start(prop("Birth / Death"))) + " - [D
+                ] " + format(prop("Death")))"
+            }
+        },
+        "Birth Year": {
+            "id": "vZ%7Dx",
+            "name": "Birth Year",
+            "type": "formula",
+            "formula": {
+                "expression": "year(prop("Birth / Death"))"
+            }
+        },
+        "Death Year": {
+            "id": "yTQG",
+            "name": "Death Year",
+            "type": "formula",
+            "formula": {
+                "expression": "empty(prop("Birth / Death")) ? "" : ((formatDate(start(prop("Birth / Death")), "YYYY") == formatDate(end(prop("Birth / Death")), "YYYY")) ? "" : formatDate(end(prop("Birth / Death")), "YYYY"))"
+            }
+        },
+        "Marriage": {
+            "id": "%7BRvC",
+            "name": "Marriage",
+            "type": "date",
+            "date": {}
+        },
+        "Title": {
+            "id": "%7DBDt",
+            "name": "Title",
+            "type": "rich_text",
+            "rich_text": {}
+        },
+        "Alt Names / Spellings": {
+            "id": "~%5E%3E%3C",
+            "name": "Alt Names / Spellings",
+            "type": "rich_text",
+            "rich_text": {}
+        },
+        "Full Name": {
+            "id": "title",
+            "name": "Full Name",
+            "type": "title",
+            "title": {}
+        }
+    },
+    "parent": {
+        "type": "page_id",
+        "page_id": "9bc04b3d-2a7e-4bd2-827b-dfa15cefbf5a"
+    },
+    "url": "https://www.notion.so/94a16cdafdcd48e1904b25a6016cd0b3",
+    "archived": False
 }
