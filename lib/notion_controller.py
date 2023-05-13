@@ -3,8 +3,8 @@
 import os
 import time
 import requests
-from typing import TypedDict
 
+# Note that in addition to the property limits below, payloads have a maximum size of 1000 block elements and 500KB overall.
 
 NOTION_KEY = os.environ.get("NOTION_KEY")
 headers = {
@@ -12,61 +12,6 @@ headers = {
     "Content-Type": "application/json",
     "Notion-Version": "2022-06-28",
 }
-
-
-class NotionTimeMachinePerson(TypedDict):
-    """Class for a Notion Time Machine person.
-    Properties:
-        Brief_Biography (str): A brief biography of the person.
-        Notable_Figure (bool): Whether the person is a notable figure.
-        Notes (str): Notes about the person.
-        Dates_Approx (bool): Whether the dates are approximate.
-        Branch (str): The branch of the family tree.
-        Spouse (str): The spouse of the person.
-        Images (str): Images of the person.
-        Parents (str): The parents of the person.
-        Siblings (str): The siblings of the person.
-        Library (str): The library of the person.
-        Children (str): The children of the person.
-        Siblings (str): The siblings of the person.
-        Place_of_Death_Burial (str): The place of death or burial of the person.
-        Tags (str): Tags for the person.
-        Associated_With (str): People associated with the person.
-        Display_Name (str): The display name of the person.
-        Nickname (str): The nickname of the person.
-        Place_of_Birth (str): The place of birth of the person.
-        Gender (str): The gender of the person. (M/F)
-        Birth_Death (str): The birth and death dates of the person.
-        Marriage (str): The marriage date of the person.
-        Title (str): The title of the person.
-        Alt_Names (str): The alternate names of the person.
-        Full_Name (str): The full name of the person.
-    """
-
-    Brief_Biography: str
-    Notable_Figure: bool
-    Notes: str
-    Dates_Approx: bool
-    Branch: str
-    Spouse: str
-    Images: str
-    Parents: str
-    Siblings: str
-    Library: str
-    Children: str
-    Siblings: str
-    Place_of_Death_Burial: str
-    Tags: str
-    Associated_With: str
-    Display_Name: str
-    Nickname: str
-    Place_of_Birth: str
-    Gender: str
-    Birth_Death: str
-    Marriage: str
-    Title: str
-    Alt_Names: str
-    Full_Name: str
 
 
 def search_databases() -> str:
